@@ -1,4 +1,6 @@
-## About this
+## Toolkit for building a recommendation system faster
 
-This is a quick toolkit built up for future recommendation engine related development task, which is mainly python based, with Cython and GPU acceleration supported by pytorch-lightning engine.
+This is not a completed project.
+
+Contain toolkits including embedding model, data pipeline, and core CTR models powered by pytorch_lightning that helps accelerate recommendation-like coding tasks.
 
