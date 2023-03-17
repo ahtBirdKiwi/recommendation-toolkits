@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "recommendation-toolkit"
+version = "0.1.0"
+description = ""
+authors = ["ahtBirdKiwi <at3721@columbia.edu>"]
+readme = "README.md"
+packages = [{include = "recommendation_toolkit"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+gensim = "4.3.1"
+joblib = "1.2.0"
+matplotlib = "3.6.0"
+networkx = "2.8.6"
+numpy = "1.24.2"
+pandas = "1.5.0"
+python-dotenv = "1.0.0"
+pytorch-lightning = "1.9.4"
+scikit-learn = "1.2.2"
+seaborn = "0.12.2"
+torch = "1.12.1"
+tqdm = "4.64.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
